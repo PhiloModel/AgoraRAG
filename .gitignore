@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignorowanie docsów
+docs/
+
 # C extensions
 *.so
 
