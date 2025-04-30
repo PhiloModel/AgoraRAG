@@ -12,7 +12,7 @@ load_dotenv()
 
 GROQ_API = os.getenv("GROQ_API")
 
-def summarize_query(query: str, temperature=0.1):
+async def summarize_query(query: str, temperature=0.1):
 
     # Inicjalizacja klienta Groq
     client = Groq(api_key=GROQ_API)
